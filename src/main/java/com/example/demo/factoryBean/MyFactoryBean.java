@@ -23,4 +23,5 @@ public class MyFactoryBean implements FactoryBean {
     public Class<?> getObjectType() {
         return A.class;
     }
+
 }

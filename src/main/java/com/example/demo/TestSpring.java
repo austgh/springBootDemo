@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class TestSpring {
     public static void main(String[] args) {
-            AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+            AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
             System.out.println("myFactoryBean: " + context.getBean("myFactoryBean"));
             System.out.println("&myFactoryBean: " + context.getBean("&myFactoryBean"));
             System.out.println("myFactoryBean‐class: " +
