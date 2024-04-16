@@ -9,5 +9,5 @@ import org.springframework.context.annotation.Import;
 @Import({Myclass.class})
 @Configuration
 public class TestDemo {
-//test git reset soft
+
 }
