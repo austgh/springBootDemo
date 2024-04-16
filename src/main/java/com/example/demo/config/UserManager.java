@@ -14,6 +14,7 @@ public class UserManager {
         System.out.println("User 空构造方法 this ="+this);
     }
     public UserManager(String userName){
+        this.userName = userName;
         System.out.println("User 非空构造方法 this ="+this);
     }
     public String getUserName(){
